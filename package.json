@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "my-personal-site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olenadanykh/portfolio.git"
+  },
+  "keywords": [],
+  "author": "Olena Danykh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olenadanykh/portfolio/issues"
+  },
+  "homepage": "https://github.com/olenadanykh/portfolio#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

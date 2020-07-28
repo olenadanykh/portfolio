@@ -1,0 +1,67 @@
+export const featuredProjects = [
+  {
+    title: 'Trinity',
+    description: 'Neo4j VS Code Extension for Cypher Query Testing and Graph Structure Exploration',
+    github: 'https://github.com/oslabs-beta/Trinity',
+    language: 'JavaScript',
+    tech: [
+      'Node.js',
+      'Neo4j',
+      'Webpack',
+      'VsCode API',
+      'Typescript',
+    ],
+  },
+  {
+    title: 'Stock Visualizer',
+    description: 'GUI based stock visualizer for daily stock data',
+    github: 'https://github.com/Team-Red-Lipped-Batfish/StockVisualizer',
+    language: 'JavaScript',
+    tech: [
+      'React',
+      'Chart.js',
+      'Express',
+      'PostgreSQL',
+    ],
+  },
+  {
+    title: 'CS Study ',
+    description: 'Flash Card App',
+    github: 'https://github.com/Team-Uggs/CS-study',
+    language: 'JavaScript',
+    tech: [
+      'React',
+      'React-Router',
+      'Express',
+      'PostgreSQL',
+      'Bcrypt',
+    ],
+  },
+  {
+    title: 'Budget Bulldog ',
+    description: 'Expense Tracker app',
+    github: 'https://github.com/team-bsaur/expense-tracker',
+    language: 'JavaScript',
+    tech: [
+      'React',
+      'Redux',
+      'Express',
+      'PostgreSQL',
+      'Bcrypt',
+      'Node.js',
+    ],
+  },
+  {
+    title: 'Book-finder',
+    description: 'Book-finder app',
+    github: 'https://github.com/olenadanykh/Book-App',
+    language: 'JavaScript',
+    tech: [
+      'React',
+      'Express',
+      'MongoDB',
+      'Node.js',
+      'Webpack',
+    ],
+  },
+];
