@@ -218,6 +218,126 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 
 /***/ }),
 
+/***/ "./src/App.js":
+/*!********************!*\
+  !*** ./src/App.js ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_HomePage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/HomePage */ \"./src/components/HomePage.js\");\n/* harmony import */ var _components_Projects__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Projects */ \"./src/components/Projects.js\");\n/* harmony import */ var _components_Experience__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Experience */ \"./src/components/Experience.js\");\n/* harmony import */ var _components_About__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/About */ \"./src/components/About.js\");\nfunction _typeof(obj) { \"@babel/helpers - typeof\"; if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nfunction _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _isNativeReflectConstruct() { if (typeof Reflect === \"undefined\" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === \"function\") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\n\n\n\n\n\n\nvar App = /*#__PURE__*/function (_Component) {\n  _inherits(App, _Component);\n\n  var _super = _createSuper(App);\n\n  function App(props) {\n    _classCallCheck(this, App);\n\n    return _super.call(this, props);\n  }\n\n  _createClass(App, [{\n    key: \"render\",\n    value: function render() {\n      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h1\", null, \" Hello World\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HomePage__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_About__WEBPACK_IMPORTED_MODULE_4__[\"default\"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Projects__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Experience__WEBPACK_IMPORTED_MODULE_3__[\"default\"], null));\n    }\n  }]);\n\n  return App;\n}(react__WEBPACK_IMPORTED_MODULE_0__[\"Component\"]);\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (App);\n\n//# sourceURL=webpack:///./src/App.js?");
+
+/***/ }),
+
+/***/ "./src/assets/content/resume.pdf":
+/*!***************************************!*\
+  !*** ./src/assets/content/resume.pdf ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"src/assets/content/resume.pdf\");\n\n//# sourceURL=webpack:///./src/assets/content/resume.pdf?");
+
+/***/ }),
+
+/***/ "./src/assets/experience.js":
+/*!**********************************!*\
+  !*** ./src/assets/experience.js ***!
+  \**********************************/
+/*! exports provided: experience */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"experience\", function() { return experience; });\nvar experience = [{\n  organization: 'Trinity / Open Source',\n  location: 'New York, NY',\n  url: 'https://github.com/oslabs-beta/Trinity',\n  title: 'Software Engineer',\n  start: 'December 2019',\n  bullets: ['Utilized VSCode API to develop an extension which allows developers perform real-time Cypher queries and quickly identify all graph relationships and  properties using VSCode Explorer by removing the need for switching between VS Code and Neo4j Browser during the development process', 'Integrated TypeScript by enforcing type annotations optimize the debugging process, providing consistent cross-development team code generation', 'Wrote a recursive search algorithm to extract all Cypher queries, determining location and position of import declarations to identify possible errors', 'Constructed configuration file to store a user’s Neo4j database credentials, persisting custom user views and eliminating the need of continuous login', 'Implemented Promises to write the queries output from VS Code Channel  to a JSON file, providing intuitive, more readable code with modularity', 'Customized Webpack configurations to run all assets, bundling files and dependencies to create a fluid development experience and debugging process', 'Integrated Mocha testing into an existing codebase, ensuring a properly working VS Code extension, verifying correct information from the Neo4j database, displaying on the outline and sending to the output Channel to minimize the debugging of new features, and package functionality for engineers']\n}];\n\n//# sourceURL=webpack:///./src/assets/experience.js?");
+
+/***/ }),
+
+/***/ "./src/assets/links.js":
+/*!*****************************!*\
+  !*** ./src/assets/links.js ***!
+  \*****************************/
+/*! exports provided: email, github, linkedIn */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"email\", function() { return email; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"github\", function() { return github; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"linkedIn\", function() { return linkedIn; });\nvar email = 'mailto:olenadanykh@gmail.com';\nvar github = 'https://www.github.com/olenadanykh';\nvar linkedIn = 'https://www.linkedin.com/in/olena-danykh-a83016173/';\n\n//# sourceURL=webpack:///./src/assets/links.js?");
+
+/***/ }),
+
+/***/ "./src/assets/projects.js":
+/*!********************************!*\
+  !*** ./src/assets/projects.js ***!
+  \********************************/
+/*! exports provided: featuredProjects */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"featuredProjects\", function() { return featuredProjects; });\nvar featuredProjects = [{\n  title: 'Trinity',\n  description: 'Neo4j VS Code Extension for Cypher Query Testing and Graph Structure Exploration',\n  github: 'https://github.com/oslabs-beta/Trinity',\n  language: 'JavaScript',\n  tech: ['Node.js', 'Neo4j', 'Webpack', 'VsCode API', 'Typescript']\n}, {\n  title: 'Stock Visualizer',\n  description: 'GUI based stock visualizer for daily stock data',\n  github: 'https://github.com/Team-Red-Lipped-Batfish/StockVisualizer',\n  language: 'JavaScript',\n  tech: ['React', 'Chart.js', 'Express', 'PostgreSQL']\n}, {\n  title: 'CS Study ',\n  description: 'Flash Card App',\n  github: 'https://github.com/Team-Uggs/CS-study',\n  language: 'JavaScript',\n  tech: ['React', 'React-Router', 'Express', 'PostgreSQL', 'Bcrypt']\n}, {\n  title: 'Budget Bulldog ',\n  description: 'Expense Tracker app',\n  github: 'https://github.com/team-bsaur/expense-tracker',\n  language: 'JavaScript',\n  tech: ['React', 'Redux', 'Express', 'PostgreSQL', 'Bcrypt', 'Node.js']\n}, {\n  title: 'Book-finder',\n  description: 'Book-finder app',\n  github: 'https://github.com/olenadanykh/Book-App',\n  language: 'JavaScript',\n  tech: ['React', 'Express', 'MongoDB', 'Node.js', 'Webpack']\n}];\n\n//# sourceURL=webpack:///./src/assets/projects.js?");
+
+/***/ }),
+
+/***/ "./src/assets/skills.js":
+/*!******************************!*\
+  !*** ./src/assets/skills.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\nvar skills = ['JavaScript', 'TypeScript', 'HTML', 'CSS/SCSS', 'React', 'React-Router', 'Redux', 'Node.js', 'Express.js', 'PostgreSQL', 'MongoDB', 'Neo4j'];\n/* harmony default export */ __webpack_exports__[\"default\"] = (skills);\n\n//# sourceURL=webpack:///./src/assets/skills.js?");
+
+/***/ }),
+
+/***/ "./src/components/About.js":
+/*!*********************************!*\
+  !*** ./src/components/About.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _assets_skills__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/skills */ \"./src/assets/skills.js\");\n\n\n\nvar About = function About(props) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h1\", null, \" Hello from About\");\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (About);\n\n//# sourceURL=webpack:///./src/components/About.js?");
+
+/***/ }),
+
+/***/ "./src/components/Experience.js":
+/*!**************************************!*\
+  !*** ./src/components/Experience.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _assets_experience__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/experience */ \"./src/assets/experience.js\");\n\n\n\nvar Experience = function Experience(props) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h1\", null, \" Hello from Experience\");\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Experience);\n\n//# sourceURL=webpack:///./src/components/Experience.js?");
+
+/***/ }),
+
+/***/ "./src/components/HomePage.js":
+/*!************************************!*\
+  !*** ./src/components/HomePage.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _assets_links__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/links */ \"./src/assets/links.js\");\n/* harmony import */ var _assets_content_resume_pdf__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/content/resume.pdf */ \"./src/assets/content/resume.pdf\");\nfunction _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }\n\nfunction _nonIterableRest() { throw new TypeError(\"Invalid attempt to destructure non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\"); }\n\nfunction _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === \"string\") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === \"Object\" && o.constructor) n = o.constructor.name; if (n === \"Map\" || n === \"Set\") return Array.from(o); if (n === \"Arguments\" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }\n\nfunction _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }\n\nfunction _iterableToArrayLimit(arr, i) { if (typeof Symbol === \"undefined\" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"] != null) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; }\n\nfunction _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }\n\n/* eslint-disable react/jsx-filename-extension */\n\n\n\n\nvar HomePage = function HomePage() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"section\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h1\", null, \"Hi, I'm Olena\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h1\", null, \" & I love to explore, learn, invent and create\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, \"I am a Software Engineer based out of New York, NY\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, [['LinkedIn', _assets_links__WEBPACK_IMPORTED_MODULE_1__[\"linkedIn\"], '#icon-linkedin-with-circle'], ['GitHub', _assets_links__WEBPACK_IMPORTED_MODULE_1__[\"github\"], '#icon-github-with-circle'], ['Email', _assets_links__WEBPACK_IMPORTED_MODULE_1__[\"email\"], '#icon-envelope-with-circle'], ['Resume', _assets_content_resume_pdf__WEBPACK_IMPORTED_MODULE_2__[\"default\"]]].map(function (_ref, idx) {\n    var _ref2 = _slicedToArray(_ref, 3),\n        title = _ref2[0],\n        url = _ref2[1],\n        icon = _ref2[2];\n\n    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(LinkItem, {\n      key: idx,\n      title: title,\n      url: url,\n      icon: icon\n    });\n  })));\n};\n\nvar link = function link(_ref3) {\n  var title = _ref3.title,\n      url = _ref3.url,\n      icon = _ref3.icon;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    onClick: function onClick() {\n      return openInNewTab(url);\n    }\n  }, icon && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SVG, {\n    extension: icon\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", {\n    className: \"p--12\"\n  }, title));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (HomePage);\n\n//# sourceURL=webpack:///./src/components/HomePage.js?");
+
+/***/ }),
+
+/***/ "./src/components/Projects.js":
+/*!************************************!*\
+  !*** ./src/components/Projects.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _assets_projects__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/projects */ \"./src/assets/projects.js\");\n\n\n\nvar Projects = function Projects(props) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h1\", null, \" Hello from Projects\");\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Projects);\n\n//# sourceURL=webpack:///./src/components/Projects.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -226,7 +346,7 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n\n\nreact_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h1\", null, \"Hello World!\"), document.getElementById('root'));\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./App */ \"./src/App.js\");\n\n\n\nreact_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_App__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null), document.getElementById('root'));\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 

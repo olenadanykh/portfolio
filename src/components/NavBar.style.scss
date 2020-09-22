@@ -1,0 +1,57 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  cursor: pointer;
+  height: 80px;
+  // border-bottom: 5px solid rgb(77, 76, 76);
+  background-color: rgb(255, 255, 255);
+  // -webkit-box-shadow: 30px 30px 20px rgb(159, 158, 160);
+  // -moz-box-shadow:    30px 20px 20px rgb(39, 5, 70);
+  box-shadow:         10px 10px 10px rgb(241, 241, 241);
+  z-index:999;
+  // position: fixed;
+}
+.logo {
+  height: 50px;
+  border-radius: 20px;
+  // top: 10px;
+}
+
+.nav-logo {
+  height: 60px;
+  position: fixed;
+  right: 1px;
+  color: rgb(58, 58, 58);;
+  // top: 10px;
+&:hover {
+    background-color: rgb(243, 243, 243);
+    border-radius: 30px;
+  }
+}
+
+.dropdown {
+  display: flex;
+  position: fixed;
+  justify-content: flex-end;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  right: 8px;
+  top: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(103, 102, 104, 0.2);
+  z-index: 1;
+
+
+}
+.nav-links{
+  text-decoration: none;
+   color: black;
+   font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-style: italic;
+   font-size: 18px;
+   &:hover {
+    opacity: .3;
+  
+  }
+}
+

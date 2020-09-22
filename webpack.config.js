@@ -25,9 +25,13 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['@babel/preset-env', '@babel/preset-react'],
+            presets: ['@babel/preset-env', '@babel/preset-react', { plugins: ['@babel/plugin-proposal-class-properties'] }],
           },
         },
+      },
+      {
+        test: /\.(pdf|gif|png|jpe?g|svg)$/,
+        use: 'file-loader?name=[path][name].[ext]',
       },
       {
         test: /\.scss$/,
