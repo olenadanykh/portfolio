@@ -1,93 +1,88 @@
-.scroll-container{
-  margin-bottom: 110px;
-  // background-color: rgb(14, 11, 11);
-}
-.container {
-// background: linear-gradient(0.25turn, #141414, #c020c5, #eec2ec);
-background: linear-gradient(0.25turn, #141414, #87008b, #eec2ec);
-    border-radius: 2px;
-    cursor: pointer;
-    display: flex;
-    flex-direction:row-reverse;
-    justify-content: space-between;
-    margin: 2rem 7rem 2rem 7rem;
-    padding: 5px;
-    transition: all .4s;
-    height: 140px;
-  //  bottom: 20px;
-  //  top: 20px;
-    &:hover {
-      transform: translateX(-2.5rem);
+.scroll-container {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0;
+  margin-bottom: 120px;
+  background-color: rgb(241, 241, 241);
   }
-
-  @media (max-width: 620px) {
-    margin: 2rem 2rem 2rem 2rem;
-    display: flex;
-     text-align: center;
-     align-items: center;
-     justify-content: center;
-      &:hover {
-          transform: none;
-      }
+  .container{
+    flex: 1 0 40%;
+    margin: 50px;
+    height: 30%;
+    background-color: rgb(224, 224, 224);
+    border-radius: 10px;
+    padding: 30px;
+    @media (max-width: 620px) {
+      flex: 1 0 80%;
+    }
+  
   }
-}
 .card-image img{
-height: 125px;
-width: 140px;
-// margin-left: 15rem;
- border-radius: 10px;
- display: block;
+  // padding: 20px;
+  float: left;
+  height: 250px;
+  width: 250px;
+  margin: 0 0.5em 0.5em 0;
+  line-height: 0;
+  border-radius: 5%;
  &:hover {
-  opacity: .3;
+  opacity: .5;
+  // transform: scale(1.5); 
 }
 @media (max-width: 620px) {
-  display: none;
+  padding: 20px;
+  float: left;
+  height: 50%;
+  width: 50%;
+  margin: 0 0.5em 0.5em 0;
+  line-height: 0;
 }
 }
 .card-content{
-  display: flex;
-  flex-direction: column;
-  color: white;
-padding-left: 50px;
+  display: inline;
+  text-align: end;
+// padding-left: 50px;
   font-weight: bold;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 12px;
 
   @media (max-width: 620px) {
-    display: flex;
-     text-align: center;
-     align-items: center;
-     justify-content: center;
+    display: inline;
+    font-size: 15px;
   }
 }
 
 .card-title {
-  // display: inline-block;
-  display: flex;
-  font-size: 40px;
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
+
+  font-size: 45px;
+  // color: whitesmoke;
+  text-shadow: 2px 2px 4px #464545;
   font-style: italic;
   &:hover {
-    opacity: .3;
-    color: rgb(88, 80, 161);
+    color: rgb(119, 9, 113);
     cursor: pointer;
     
+  }
+  @media (max-width: 620px) {
+    font-size: 30px;
   }
 }
 .descrip {
   font-size: 14px;
   font-style: italic;
+}
+.descrip-2 {
+margin-top: 100px;
   @media (max-width: 620px) {
     font-size: 11px;
   }
+
 }
-.descrip-2 {
+
+
   
-  @media (max-width: 620px) {
-    display: none;
-  }
-}
+
+  
 
 
 

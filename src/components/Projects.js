@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import { myProjects } from '../assets/projects';
 import Technologies from './Technologies'
 import "./Projects.scss"
-import experience from '../assets/experience'
+import loading_gif from '../assets/images/coming_gif.gif'
 
 class Projects extends Component {
   constructor(){
@@ -12,26 +12,16 @@ class Projects extends Component {
 
     }
       render() {
-        // const {bullets} = experience;
-        // const bullet = bullets.map(el => {
-        //   return(
-        //     <ul className="bullets">
-        //       <li>
-        //         {el}
-        //       </li>
-        //     </ul>
-        //   )
-        // })
-    
         const projects = myProjects.map((el) => {
-          const { title, description, github, language, logo, bullets } = el;
-          console.log(bullets)
+          const { title, description, github, language, logo, bullets} = el;
+          console.log('bullets', bullets)
       
           return(
             
             <div className="container">
-          <div class="card-image">
+          <div className="card-image">
             <img src={logo} onClick={() => window.open(github)}/>
+         
             </div>
             <div className="card-content">
           <h1 className="card-title" onClick={() => window.open(github)}>{title}</h1> 
@@ -45,10 +35,18 @@ class Projects extends Component {
           )
         })
         return(
-          <div >
+          <div>
           < Technologies/>
           <ul className="scroll-container">
             {projects}
+            <div className="container">
+          <div className="card-image">
+            <img src={loading_gif}/>
+            </div>
+            <div className="card-content">
+          <h1 className="card-title">...coming soon</h1> 
+            </div>
+          </div>
             
           </ul>
           </div>

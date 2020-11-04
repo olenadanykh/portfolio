@@ -11,7 +11,7 @@
     --ff-secondary: 'Source Code Pro', monospace;
     
     --fw-reg: 300;
-    --fw-bold: 900;
+    --fw-bold: 600;
     
     --clr-light: #fff;
     --clr-dark: #303030;
@@ -91,7 +91,7 @@ h3 { font-size: var(--fs-h3) }
 .section__subtitle--intro,
 .section__subtitle--about {
     background: var(--clr-accent);
-    padding: .25em 0.25em;
+    padding: .75em 0.25em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
     color: white;
@@ -137,8 +137,8 @@ nav { display: none; }
     
     .intro__img {
         grid-area: img;
-        min-width: 300px;
-        min-height: 300px;
+        min-width: 400px;
+        min-height: 400px;
         position: relative;
         // overflow: auto;
         // z-index: 1;
