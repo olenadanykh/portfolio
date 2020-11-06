@@ -5,6 +5,7 @@ import me from '../assets/images/me.jpeg'
 
 const About = props => (
   <div className="about">
+    {/* <span class="dot"></span> */}
     <h1> About me: </h1> 
   <img src={me} alt=""/>
 
